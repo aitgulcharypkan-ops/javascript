@@ -1,5 +1,5 @@
 //1
-let ages=30;
+let age=30;
 console.log(age); //let - может быть изменена, но не может быть повторно объявлена в одной и той же области видимости.
 
 age=31;
@@ -13,7 +13,7 @@ console.log(year); //const - не может быть изменена или п
 
 
 //3
-let number=42;
+let num=42;
 let str="hello";
 let bool=true;
 let empty=null;
