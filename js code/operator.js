@@ -6,24 +6,22 @@ console.log(a+c-b);
 console.log(a*b/c);
 console.log(a%b);
 //2
-let x=7;
-++x;
-console.log(x);
---x;
-console.log(x);
+let x = 7;
+console.log("x++ + ++x =", x++ + ++x);
+console.log("x-- - --x =", x-- - --x);
 //3
-let text="the result is:" + "4+5";
-console.log(text);
+let num1 = 4;
+let num2 = 5;
+let result = "The result is: " + (num1 + num2);
+console.log(result);
 //4
-let A = 15;
-let B = 10;
-let C = 3;
-let condition1 = (A > B) && (A > 0) && (B > 0);
-console.log("A > B > 0:", condition1);
-let condition2 = (C < 10) || (C === 2);
-console.log("C < 10 && C == 2:", condition2);
-let condition3 = (a / c !== 5);
-console.log("A / C != 5:", condition3);
+let g = 10;
+let d = 3;
+let r = 5;
+console.log(g > d && g > 0 && d > 0);
+console.log(r < 10 || r === 2);
+console.log((g / r) !== 5);
+
 //5
 console.log(10 == "10"); 
 console.log(10 === "10"); 
