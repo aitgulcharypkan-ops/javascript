@@ -23,11 +23,9 @@ if (userAge < 18) {
 } 
 //4
 let num = prompt("Введите число:");
-if (num % 2 === 0) {
-    console.log("Четное число");
-} else {
-    console.log("Нечетное число");
-}
+let canNum = (num % 2===0) ? "четное число" : "Нечетное число";
+console.log(canNum);
+
 //5
 let day = Number(prompt("Введите день недели (1-7):"));
 
