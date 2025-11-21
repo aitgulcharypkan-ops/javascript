@@ -5,13 +5,9 @@ let person = {
 };
 console.log(person);
 //2
-let originalObject = { name: "John", age: 30, city: "Tokyo" };
-let copyObject = Object.assign({}, originalObject);
+person.city = "Kannam";
+console.log(person.city); 
 
-copyObject.city = "Kannam";
-
-console.log(originalObject.city); 
-console.log(copyObject.city); 
 //3
 const personman = {
     name: "Khardin",
